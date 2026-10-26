@@ -1,4 +1,4 @@
-﻿# Composer Components _(composer_components)_
+# Composer Components _(composer_components)_
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -23,32 +23,32 @@ Maintaining unified look-and-feel across browser applications and native mobile/
 
 Add reference from your Blazor or MAUI project:
 
-`xml
+```xml
 <ItemGroup>
   <ProjectReference Include="..\composer_components\Composer.Component.csproj" />
 </ItemGroup>
-`
+```
 
 Or build directly:
 
-`ash
+```bash
 dotnet build Composer.Component.csproj
-`
+```
 
 ## Usage
 
 Reference namespace in your _Imports.razor:
 
-`azor
+```azor
 @using Composer.Component.Areas.Layout.Component
-`
+```
 
 Render components in Razor views:
 
-`azor
+```azor
 <MenuBar />
 <NavMenu />
-`
+```
 
 ## Maintainers
 
